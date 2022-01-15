@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit from TECNO-CE7j device
-$(call inherit-product, device/tecno/TECNO-CE7j/device.mk)
+$(call inherit-product, device/tecno/CE7j/device.mk)
 
 # Inherit some common twrp stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
@@ -24,8 +24,8 @@ PRODUCT_MODEL := TECNO CE7j
 PRODUCT_MANUFACTURER := TECNO MOBILE LIMITED
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-  PRODUCT_DEVICE="TECNO-CE7j" \ 
-  PRODUCT_NAME=CE7j-OP 
+  PRODUCT_DEVICE="TECNO-CE7j" 
+  #PRODUCT_NAME=CE7j-OP 
 
 # Dynamic
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
