@@ -17,13 +17,15 @@ $(call inherit-product, device/tecno/TECNO-CE7j/device.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := TECNO-CE7j
-PRODUCT_NAME := twrp_TECNO-CE7j
+PRODUCT_DEVICE := CE7j
+PRODUCT_NAME := twrp_CE7j
 PRODUCT_BRAND := TECNO
 PRODUCT_MODEL := TECNO CE7j
-PRODUCT_MANUFACTURER := tecno
+PRODUCT_MANUFACTURER := TECNO MOBILE LIMITED
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_DEVICE="TECNO-CE7j"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+  PRODUCT_DEVICE="TECNO-CE7j" \ 
+  PRODUCT_NAME=CE7j-OP 
 
 # Dynamic
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
