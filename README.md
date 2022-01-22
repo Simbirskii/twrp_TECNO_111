@@ -1,3 +1,10 @@
-# android_device_TECNO_CE7j-twrp
-A twrp device tree for TECNO_CE7j
-TWRP compiled with this device tree will not start and will reboot
+## TWRP for TECNO Camon 16 CE7j
+
+### Working
+- Need to test
+
+### Issues
+- Need to test
+
+### Specifications
+- See https://m.gsmarena.com/tecno_camon_16-10503.php

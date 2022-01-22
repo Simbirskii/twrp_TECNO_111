@@ -9,6 +9,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_CE7j.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_CE7j-user \
-    twrp_CE7j-userdebug \
     twrp_CE7j-eng
