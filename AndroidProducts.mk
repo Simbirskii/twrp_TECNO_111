@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_CE7j.mk
+    $(LOCAL_DIR)/twrp_KH7n.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_CE7j-eng
+    twrp_KN7n-eng
