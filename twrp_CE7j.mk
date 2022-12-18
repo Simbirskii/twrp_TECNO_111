@@ -8,15 +8,15 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 
-# Inherit from TECNO-CE7j device
-$(call inherit-product, device/TECNO/CE7j/device.mk)
+# Inherit from TECNO-KH7n device
+$(call inherit-product, device/TECNO/KH7n/device.mk)
 
 # Inherit some common twrp stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := CE7j
-PRODUCT_NAME := twrp_CE7j
+PRODUCT_DEVICE := KH7n
+PRODUCT_NAME := twrp_KH7n
 PRODUCT_BRAND := TECNO
-PRODUCT_MODEL := TECNO CE7j
+PRODUCT_MODEL := TECNO KH7n
 PRODUCT_MANUFACTURER := TECNO MOBILE LIMITED
